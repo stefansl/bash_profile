@@ -16,8 +16,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias s='ssh -l root'
 
-alias killthumbdb='find . -type f -name "?humbs.db" -exec rm "{}" \;'
-alias killdsstore='find . -type f -name ".DS_Store" -exec rm "{}" \;'
+alias killthumbdb='find . -type f -name "?humbs.db" -exec rm -v "{}" \;'
+alias killdsstore='find . -type f -name ".DS_Store" -exec rm -v "{}" \;'
 
 
 #############################################################################
